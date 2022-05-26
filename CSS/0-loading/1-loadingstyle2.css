@@ -1,0 +1,67 @@
+
+
+#root {
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.loading{
+  position: relative;
+  bottom: 50px;
+}
+
+.hello{
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  position: relative;
+  top: 100px;
+  color: rgba(2, 255, 255, 0.15);
+}
+.numbers{
+  width: 20vw;
+  height: 10vw;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.numbers>div{
+  margin: 10px;
+  position: relative;
+  top: 100px;
+}
+
+.one{
+  width: 2vw;
+  height: 2vw;
+  border-radius: 50%;
+  animation: one 4s infinite;
+}
+.two{
+  width: 3vw;
+  height: 3vw;
+  border-radius: 50%;
+  animation: two 4s infinite;
+
+}
+.three{
+  width: 4vw;
+  height: 4vw;
+  border-radius: 50%;
+  animation: three 4s infinite;
+}
+.four{
+  width: 5.5vw;
+  height: 5.5vw;
+  border-radius: 50%;
+  animation: four 4s infinite;
+}

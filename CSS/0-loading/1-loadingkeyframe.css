@@ -1,0 +1,199 @@
+@keyframes rotate {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+@keyframes rotate_anti {
+  0% {
+    transform: rotateZ(360deg);
+  }
+  100% {
+    transform: rotateZ(0deg);
+  }
+}
+
+@keyframes colour_ease {
+  0% {
+    border-color: #02feff;
+  }
+  50% {
+    border-color: rgba(2, 254, 255, 0.5);
+  }
+  100% {
+    border-color: #02feff;
+  }
+}
+
+@keyframes colour_ease2 {
+  0% {
+    background: #02feff;
+  }
+  50% {
+    background: rgba(2, 254, 255, 0.3);
+  }
+  100% {
+    background: #02feff;
+  }
+}
+
+@keyframes flicker {
+  0% {
+    box-shadow: 0px 0px 16px 8px rgba(150, 255, 255, 0.5), inset 0px 1px 4px 2px rgba(21, 211, 233, 0.3);
+  }
+  40% {
+    box-shadow: 0px 0px 16px 8px rgba(150, 255, 255, 0.5), inset 0px 1px 4px 2px rgba(21, 211, 233, 0.3);
+  }
+  50% {
+    box-shadow: 0px 0px 16px 6px rgba(150, 255, 255, 0.5), inset 0px 1px 100px 2px rgba(21, 211, 233, 0.3);
+  }
+  60% {
+    box-shadow: 0px 0px 16px 8px rgba(150, 255, 255, 0.5), inset 0px 1px 4px 2px rgba(21, 211, 233, 0.3);
+  }
+  100% {
+    box-shadow: 0px 0px 16px 8px rgba(150, 255, 255, 0.5), inset 0px 1px 4px 2px rgba(21, 211, 233, 0.3);
+  }
+}
+@keyframes flicker2 {
+  0% {
+    box-shadow: 0px 0px 60px 25px rgba(150, 255, 255, 0.5), inset 0px 1px 4px 2px rgba(21, 211, 233, 0.3);
+  }
+  40% {
+    box-shadow: 0px 0px 60px 25px rgba(150, 255, 255, 0.5), inset 0px 1px 4px 2px rgba(21, 211, 233, 0.3);
+  }
+  50% {
+    box-shadow: 0px 0px 50px 17px rgba(150, 255, 255, 0.5), inset 0px 1px 100px 2px rgba(21, 211, 233, 0.3);
+  }
+  60% {
+    box-shadow: 0px 0px 60px 25px rgba(150, 255, 255, 0.5), inset 0px 1px 4px 2px rgba(21, 211, 233, 0.3);
+  }
+  100% {
+    box-shadow: 0px 0px 60px 25px rgba(150, 255, 255, 0.5), inset 0px 1px 4px 2px rgba(21, 211, 233, 0.3);
+  }
+}
+@keyframes big_flicker {
+  0% {
+    box-shadow: 0px 0px 40px 20px rgba(150, 255, 255, 0.5), inset 0px 1px 30px 15px rgba(21, 211, 233, 0.3);
+  }
+  40% {
+    box-shadow: 0px 0px 40px 20px rgba(150, 255, 255, 0.5), inset 0px 1px 30px 15px rgba(21, 211, 233, 0.3);
+  }
+  50% {
+    box-shadow: 0px 0px 35px 17px rgba(150, 255, 255, 0.5), inset 0px 1px 50px 40px rgba(21, 211, 233, 0.3);
+  }
+  60% {
+    box-shadow: 0px 0px 40px 20px rgba(150, 255, 255, 0.5), inset 0px 1px 30px 15px rgba(21, 211, 233, 0.3);
+  }
+  100% {
+    box-shadow: 0px 0px 40px 20px rgba(150, 255, 255, 0.5), inset 0px 1px 30px 15px rgba(21, 211, 233, 0.3);
+  }
+}
+
+@keyframes htag{
+  0% {
+    color: black;
+  }
+  15%{
+    color: red;
+  }
+  30% {
+    color: black;
+  }
+  45%{
+    color: orange;
+  }
+  60%{
+    color: black;
+  }
+  75% {
+    color: #05FF00;
+  }
+  100%{
+    color: black;
+  }
+}
+
+@keyframes one {
+  0%{
+    background-color: black;
+  }
+  20%{
+    background-color:  #02feff;
+  }
+  40%{
+    background-color: black;
+    
+  }
+  60%{
+    background-color: black;
+
+  }
+  100%{
+    background-color: black;
+  }
+}
+
+@keyframes two {
+  0%{
+    background-color: black;
+  }
+  20%{
+    background-color:  black;
+  }
+  40%{
+    background-color: #02feff;
+    
+  }
+  60%{
+    background-color: black;
+
+  }
+  100%{
+    background-color: black;
+  }
+}
+
+@keyframes three {
+  0%{
+    background-color: black;
+  }
+  20%{
+    background-color:  black;
+  }
+  40%{
+    background-color: black;
+    
+  }
+  60%{
+    background-color: #02feff;
+
+  }
+  100%{
+    background-color: black;
+  }
+}
+@keyframes four {
+  0%{
+    background-color: black;
+  }
+  20%{
+    background-color:  black;
+  }
+  40%{
+    background-color: black;
+    
+  }
+  60%{
+    background-color: black;
+
+  }
+  80%{
+    background-color: #02feff;
+  }
+  100%{
+    background-color: black;
+  }
+}
+

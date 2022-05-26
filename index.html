@@ -4,9 +4,76 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./CSS/0-loading/1-loadingkeyframe.css">
+  <link rel="stylesheet" href="./CSS/0-loading/1-loadingneonstyle.css">
+  <link rel="stylesheet" href="./CSS/0-loading/1-loadingstyle2.css">
+  <link rel="stylesheet" href="./CSS/1-display/2-firstdisplay.css">
   <title>Document</title>
+  <style>
+    *{margin: 0;
+      padding:0;}
+  </style>
 </head>
 <body>
-  
+  <div id="root">
+    <div class="loading">
+      <div class="arc_reactor">
+        <div class="case_container">
+          <div class="e7">
+            <div class="semi_arc_3 e5_1">
+              <div class="semi_arc_3 e5_2">
+                <div class="semi_arc_3 e5_3">
+                  <div class="semi_arc_3 e5_4">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="core2"></div>
+          </div>
+          <ul class="marks">
+            <li></li><li></li><li></li><li></li><li></li><li></li>
+            <li></li><li></li><li></li><li></li><li></li><li></li>
+            <li></li><li></li><li></li><li></li><li></li><li></li>
+            <li></li><li></li><li></li><li></li><li></li><li></li>
+            <li></li><li></li><li></li><li></li><li></li><li></li>
+            <li></li><li></li><li></li><li></li><li></li><li></li>
+            <li></li><li></li><li></li><li></li><li></li><li></li>
+            <li></li><li></li><li></li><li></li><li></li><li></li>
+            <li></li><li></li><li></li><li></li><li></li><li></li>
+            <li></li><li></li><li></li><li></li><li></li><li></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="hello"><h1 style="animation:htag 10s infinite;">" hello world "</h1></div>
+    <div class="numbers">
+      <div class="one"></div>
+      <div class="two"></div>
+      <div class="three"></div>
+      <div class="four"></div>
+    </div>
+  </div>
+  <div class="roottwo">
+    <div class="first"></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+<script>
+  //변수설정
+  const root = document.querySelector('#root')
+  const body = document.body
+  const roottwo = document.querySelector('.roottwo')
+  const bodychd = document.body.children
+  console.log(bodychd) 
+  console.dir(body)
+  //로딩 스크립트
+  setTimeout(function(){
+    root.remove() //5초뒤 root 삭제
+    roottwo.style.display="flex"//5초뒤 화면나오게 설정
+  },5000)
+
+</script>
 </body>
 </html>
