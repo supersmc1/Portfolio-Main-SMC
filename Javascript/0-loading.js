@@ -8,5 +8,5 @@
   //로딩 스크립트
   setTimeout(function(){
     root.remove() //5초뒤 root 삭제
-    roottwo.style.display="flex"//5초뒤 화면나오게 설정
+    roottwo.style.display="block"//5초뒤 화면나오게 설정
   },5000)

@@ -4,16 +4,33 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet"> 
   <link rel="stylesheet" href="./CSS/0-loading/1-loadingkeyframe.css">
   <link rel="stylesheet" href="./CSS/0-loading/1-loadingneonstyle.css">
   <link rel="stylesheet" href="./CSS/0-loading/1-loadingstyle2.css">
   <link rel="stylesheet" href="./CSS/1-display/firstdisplay.css">
   <link rel="stylesheet" href="./CSS/2-display/seconddisplay.css">
+  <link rel="stylesheet" href="./CSS/3-display/thirddisplay.css">
+  <link rel="stylesheet" href="./CSS/4-display/fourthdisplay.css">
+  <link rel="stylesheet" href="./CSS/4-display/fourthFRdisplay.css">
+  <link rel="stylesheet" href="./CSS/5-display/fifthdisplay.css">
+
   <title>Document</title>
   <style>
     *{margin: 0;
-      padding:0;}
+      padding:0;
+    
+    }
+    .roottwo{
+      width: 100vw;
+      height: 465vh;
+      display: none;
+    }
   </style>
+  <script defer src="/Javascript/0-loading.js"></script>
+  <script defer src="/Javascript/1-1firstANI.js"></script>
+  <script defer src="/Javascript/1-2firstTP.js"></script>
+  <script defer src="/Javascript/3-third.js"></script>
 </head>
 <body>
   <div id="root">
@@ -267,27 +284,88 @@
         </div>
       </div>
     </div>
-    <div class="second"></div>
-    <div></div>
-    <div></div>
-    <div></div>
+    <div class="second">
+      <div class="id-card">
+        <div class="profile">
+          <div class="dp">
+            <div class="dp-outer"></div>
+            <div class="dp-inner"></div>
+            <img class="my" src="./image/Screenshot_20220524-144432_Gallery.jpg">
+          </div>
+          <div class="desc">
+            <h1>PROFILE</h1>
+            <h1>회사에 필요한 에너지<br>제가 "만충" 해드립니다.</h1>
+                <p>Name : 손만충</p>
+                <p>Age: 28</p>
+                <p>UX|UI WEB-DESIGNER</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="third">
+      <div class="smc">
+        <div>I'M
+          <span style="color:red;">S</span>
+          <span style="color: orange;">M</span>
+          <span style="color: #05FF00;">C</span>
+        </div>
+      </div>
+      <div class="s-m-c">
+        <div><span style="color:red;">S</span>ensational</div>
+        <div><span style="color: orange;">M</span>ind holic</div>
+        <div><span style="color: #05FF00;">C</span>ontents Maker</div>
+      </div>
+      <div class="uhoh">
+        <div class="arrow"></div>
+        <div class="slider">
+          <ul class="slides">
+            <li><img src="./image/6.jpg" alt=""></li>
+            <li><img src="./image/5.jpg" alt=""></li>
+            <li><img src="./image/4.jpg" alt=""></li>
+            <li><img src="./image/3.jpg" alt=""></li>
+            <li><img src="./image/2.jpg" alt=""></li>
+          </ul>
+        </div>  
+        <div class="arrowtwo"></div>
+      </div>
+    </div>
+    <div class="fourth">
+      <div>
+        <h1>MY PROJECT CARD</h1>
+      </div>
+      <div class="cards">
+        <div class="projectone"><img src="./image/기가바이트.jpg" alt=""></div>
+        <div class="projecttwo"><img src="./image/에이수스.jpg" alt=""></div>
+        <div class="projecttree"><img src="./image/스톰2.jpg" alt=""></div>
+      </div>
+      <div class="circle"></div>
+    </div>
+    <div class="fifth">
+      <div class="alwaytxt">
+        <h1>I'M Always READY</h1>
+      </div>
+      <div class="dura">
+       <div>
+         <div>항상 "만충" 하게</div>
+         <div>"오래가는 에너자이저" 같은 능력을 보여 드리겠습니다.</div>
+         <div>"끝까지 오래가는 파워 듀라셀" 같은 능력을 보여 드리겠습니다.</div>
+       </div>
+       <div><img src="./image/듀라셀.jpg" alt=""></div>
+      </div>
+      <div class="energi">
+        <div class="energiimg"><img src="./image/에너자이저.jpg" alt=""></div>
+  
+        <div class="kakaos">
+          <div></div>
+          <div>ID : asd552288</div>
+        </div>
+  
+        <div class="github">
+          <div></div>
+          <div>ID : supersmc1</div>
+        </div>
+      </div>
+    </div>
   </div>
-
-<script src="/Javascript/loading.js" defer></script>
-<!-- <script>
-  //변수설정
-  const root = document.querySelector('#root')
-  const body = document.body
-  const roottwo = document.querySelector('.roottwo')
-  const bodychd = document.body.children
-  console.log(bodychd) 
-  console.dir(body)
-  //로딩 스크립트
-  setTimeout(function(){
-    root.remove() //5초뒤 root 삭제
-    roottwo.style.display="flex"//5초뒤 화면나오게 설정
-  },5000)
-
-</script> -->
 </body>
 </html>
