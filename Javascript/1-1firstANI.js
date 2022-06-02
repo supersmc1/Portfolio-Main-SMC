@@ -12,6 +12,7 @@ const ka = document.querySelector('.ka')
 const ta = document.querySelector('.ta')
 const pa = document.querySelector('.pa')
 const ha = document.querySelector('.ha')
+const gachd = ga.children
 const nachd = na.children
 const dachd = da.children
 const rachd = ra.children
