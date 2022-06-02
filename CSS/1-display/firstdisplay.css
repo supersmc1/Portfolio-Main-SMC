@@ -53,45 +53,9 @@
   width: 5vw;
   height: 3.3vh;
   border: 2px solid black;
-}
-.ga>div{
   background-color: black;
 }
-.na>div{
-  background-color: black;
-}
-.da>div{
-  background-color:black;
-}
-.ra>div{
-  background-color: black;
-}
-.ma>div{
-  background-color: black;
-}
-.ba>div{
-  background-color: black;
-}
-.sa>div{
-  background-color: black;
-}
-.ah>div{
-  background-color: black;
-}
-.ja>div{
-  background-color: black;
-}
-.ka>div{
-  background-color: black;
-}
-.ta>div{
-  background-color: black;
-}.pa>div{
-  background-color: black;
-}
-.ha>div{
-  background-color: black
-}
+
 .are{
   width: inherit;
   height: 30vh;
