@@ -3,29 +3,67 @@
   width:  100vw;
   background-color: black;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .id-card {
   width: 50vw;
   height: 50vh;  
   border: 1px solid #66ff00;
   background-color: rgba(0,0,0,0.8);
-  margin: auto;
   color: #fff;
   padding: 1em;
   box-shadow: 0px 0px 3px 1px #12a0a0, inset 0px 0px 3px 1px #12a0a0;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  border-radius: 30px;
 }
+.beterrys{
+  width: 48vw;
+  height: 49vh;  
+  border-radius: 30px;
+  animation: charges 10s infinite;
+  animation-delay: 5s;
+  position: absolute;
+  z-index: 1;
+ background-color: black;
+
+
+}
+@keyframes charges{
+  0%{
+    width: 0vw;
+    background: #1072a5;
+    background: -webkit-linear-gradient(45deg, #1072a5 0%, #2baa16 100%);
+    background: linear-gradient(45deg, #1072a5 0%, #2baa16 100%);    
+  }
+
+  100%{
+    width: 48vw;
+    background: #1072a5;
+    background: -webkit-linear-gradient(45deg, #1072a5 0%, #2baa16 100%);
+    background: linear-gradient(45deg, #1072a5 0%, #2baa16 100%);  
+  }
+}
+
+.gunjunjee{
+  width: 2vw;
+  height: 15vh;
+  border-radius: 15px;
+  border: 1px solid #66ff00;
+  box-shadow: 0px 0px 3px 1px #12a0a0, inset 0px 0px 3px 1px #12a0a0;
+}
+
 
 .profile {
   display: flex;
 }
 .dp {
   position: relative;
-  margin: 24px;
+  margin-left: 180px;
   align-self: center;
-  left:-60px
+  left:-80px;
+  z-index: 2;
+
 
 }
 .desc {
@@ -36,9 +74,13 @@
   text-shadow: 0px 0px 4px #12a0a0;
   letter-spacing: 1px;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   flex-direction: column;
+  z-index: 2;
+}
+.desc>p{
+  font-size: 20px;
 }
 
 .my{
@@ -46,7 +88,7 @@
   height: 15vw;
   border-radius: 50%;
   display: block;
-  box-shadow: 0px 0px 4px 3px #66ff00;
+  box-shadow: 0px 0px 4px 3px #e9eee6;
 }
 
 .dp-inner {
@@ -73,7 +115,7 @@
   width: calc(100% + 20px);
   height: calc(100% + 20px);
   border: 8px solid transparent;
-  border-bottom-color: #66ff00;
+  border-bottom-color: #01ffff;
   border-radius: 50%;
   top: -16px;
   left: -16px;

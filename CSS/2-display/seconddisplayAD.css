@@ -1,0 +1,57 @@
+.cables{
+  width: 24vw;
+  height: 2vh;
+  box-shadow: 0px 0px 4px 3px #e9eee6;
+  display: flex;
+}
+
+.adepter{
+  width: 1vw;
+  height: 6vw;
+  box-shadow: 0px 0px 4px 3px #e9eee6;
+}
+.cablestwo{
+  width: 25vw;
+  height: 2vh;
+  box-shadow: 0px 0px 4px 3px #e9eee6;
+  display: flex;
+        
+}
+.electcharge{
+  width: 22vw;
+  height: 1vh;
+  animation: volt 2s infinite;
+  background: #ebeb0b;
+  background: -webkit-linear-gradient(275deg, #ebeb0b 0%, #f28f0b 100%);
+  background: linear-gradient(275deg, #ebeb0b 0%, #f28f0b 100%);
+  margin-top: 5px;
+}
+
+.electchargetwo{
+  width: 25vw;
+  height: 1vh;
+  animation: volts 5s infinite;
+  animation-delay: 13s;
+  background-color: black;
+  margin-top: 5px;
+}
+
+@keyframes volt{
+  0%{
+    width: 0vw;
+  }
+}
+@keyframes volts{
+  0%{
+    width: 0vw;
+    background: #ebeb0b;
+  background: -webkit-linear-gradient(275deg, #ebeb0b 0%, #f28f0b 100%);
+  background: linear-gradient(275deg, #ebeb0b 0%, #f28f0b 100%);
+  }
+  100%{
+    width: 24vw;
+    background: #ebeb0b;
+  background: -webkit-linear-gradient(275deg, #ebeb0b 0%, #f28f0b 100%);
+  background: linear-gradient(275deg, #ebeb0b 0%, #f28f0b 100%);
+  }
+}
