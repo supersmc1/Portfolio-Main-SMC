@@ -15,13 +15,13 @@ items1.addEventListener('click',function(){
 })
 
 items2.addEventListener('click',function(){
-  window.scrollTo(0,1765)
+  window.scrollTo(0,1895)
 })
 
 items3.addEventListener('click',function(){
-  window.scrollTo(0,2565)
+  window.scrollTo(0,2795)
 })
 
 items4.addEventListener('click',function(){
-  window.scrollTo(0,3565)
+  window.scrollTo(0,3965)
 })
