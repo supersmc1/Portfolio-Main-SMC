@@ -112,6 +112,47 @@
 
 @media (max-width:500px) {
   .s-m-c>h1{
-    font-size: 1rem;
+    font-size: 2rem;
   }
+
+  .s-m-c{
+    flex-direction: column;
+  }
+
+  
+.slider{
+  width: 70vw;
+  height:35vh;
+  overflow: hidden;
+  position: relative;
+
+
+}
+
+.slides{
+  width: 350vw;
+  border: 1px white;
+  display: flex;
+  position:absolute;
+  left: 0px;
+  top: 0px;
+  transition: 0.5s ease-out;
+}
+
+
+.slides>li{
+  width: 70vw;
+  height: 35vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slides>li>img{
+  width: 67vw;
+  height: 30vh;
+}
+  
+
+  
 }
