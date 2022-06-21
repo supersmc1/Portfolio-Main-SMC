@@ -18,7 +18,7 @@
         
 }
 .electcharge{
-  width: 22vw;
+  width: 0vw;
   height: 1vh;
   animation: volt 2s infinite;
   background: #ebeb0b;
@@ -40,6 +40,9 @@
   0%{
     width: 0vw;
   }
+  100%{
+    width: 22vw;
+  }
 }
 @keyframes volts{
   0%{
@@ -53,5 +56,30 @@
     background: #ebeb0b;
   background: -webkit-linear-gradient(275deg, #ebeb0b 0%, #f28f0b 100%);
   background: linear-gradient(275deg, #ebeb0b 0%, #f28f0b 100%);
+  }
+}
+
+@media (max-width:500px) {
+  @keyframes volts{
+    0%{
+      width: 0vw;
+      background: #ebeb0b;
+    background: -webkit-linear-gradient(275deg, #ebeb0b 0%, #f28f0b 100%);
+    background: linear-gradient(275deg, #ebeb0b 0%, #f28f0b 100%);
+    }
+    100%{
+      width: 20vw;
+      background: #ebeb0b;
+    background: -webkit-linear-gradient(275deg, #ebeb0b 0%, #f28f0b 100%);
+    background: linear-gradient(275deg, #ebeb0b 0%, #f28f0b 100%);
+    }
+  }
+  @keyframes volt{
+    0%{
+      width: 0vw;
+    }
+    100%{
+      width: 18vw;
+    }
   }
 }

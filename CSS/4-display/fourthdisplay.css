@@ -56,7 +56,6 @@
 .projectone{
   top:130px;
   right:260px;
-  transform: rotate(10deg);
 
 }
 
@@ -67,5 +66,4 @@
 .projecttree{
   top:130px;
   left:260px;
-  transform: rotate(170deg);
 }

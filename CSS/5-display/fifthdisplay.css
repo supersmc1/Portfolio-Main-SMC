@@ -67,15 +67,7 @@
   animation: duraa 5s infinite;
 }
 
-@keyframes duraa {
-0%{
-  left: 100px;
 
-}
-100%{
-  left: 1500px;
-}
-}
 .energi{
   width: 100vw;
   height: 47vh;

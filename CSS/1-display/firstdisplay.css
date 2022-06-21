@@ -160,3 +160,30 @@
   background-color: rgba(48, 47, 47, 0.836);
 }
 
+@media (max-width:500px) {
+  .menu>div{
+    font-size: 0.8rem;
+    display: block;
+    width: 25vw;
+  }
+  .text{
+    font-size: 1rem;
+    text-align: center;
+  }
+  .wee{
+    height:50vh;
+  }
+  .wee>div{
+    height: 50vh;
+  }
+  .wee>div>div{
+    height: 2vh;
+  }
+  .are{
+    height: 30vh;
+  }
+  .first{
+    height: 80vh;
+  }
+}
+

@@ -1,15 +1,14 @@
-.cards>div:hover{
+.cards>div{
   animation:kaiten 3s infinite;
-  transform: rotate(10deg);
+}
+
+.cards>div:hover{
+  animation-play-state: paused;
 }
 
 @keyframes kaiten {
   0%{
     transform: rotate3d(0,1,0,60deg);
-  }
-  50%{
-    transform: rotate3d(0,1,0,180deg);
-
   }
   100%{
     transform: rotate3d(0,1,0,360deg);
