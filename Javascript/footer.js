@@ -1,6 +1,7 @@
 const kakao = document.querySelector('.kakao')
 const github = document.querySelector('.github')
-
+kakao.style.backgroundImage = 'url(../image/kakaos.jpg)'
+github.style.backgroundImage = 'url(../image/github.png)'
 kakao.addEventListener('click',function(){
   alert('손만충의 kakao ID가 저장 되었습니다.')
 })
