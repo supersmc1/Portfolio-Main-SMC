@@ -52,10 +52,60 @@
   background: linear-gradient(275deg, #ebeb0b 0%, #f28f0b 100%);
   }
   100%{
-    width: 24vw;
+    width: 23vw;
     background: #ebeb0b;
   background: -webkit-linear-gradient(275deg, #ebeb0b 0%, #f28f0b 100%);
   background: linear-gradient(275deg, #ebeb0b 0%, #f28f0b 100%);
+  }
+}
+@media (max-width:1700px) {
+  @keyframes volts{
+    0%{
+      width: 0vw;
+      background: #ebeb0b;
+    background: -webkit-linear-gradient(275deg, #ebeb0b 0%, #f28f0b 100%);
+    background: linear-gradient(275deg, #ebeb0b 0%, #f28f0b 100%);
+    }
+    100%{
+      width: 22vw;
+      background: #ebeb0b;
+    background: -webkit-linear-gradient(275deg, #ebeb0b 0%, #f28f0b 100%);
+    background: linear-gradient(275deg, #ebeb0b 0%, #f28f0b 100%);
+    }
+  }
+  @keyframes volt{
+    0%{
+      width: 0vw;
+    }
+    100%{
+      width: 21vw;
+    }
+  }
+}
+
+
+@media (max-width:1300px) {
+  @keyframes volts{
+    0%{
+      width: 0vw;
+      background: #ebeb0b;
+    background: -webkit-linear-gradient(275deg, #ebeb0b 0%, #f28f0b 100%);
+    background: linear-gradient(275deg, #ebeb0b 0%, #f28f0b 100%);
+    }
+    100%{
+      width: 22vw;
+      background: #ebeb0b;
+    background: -webkit-linear-gradient(275deg, #ebeb0b 0%, #f28f0b 100%);
+    background: linear-gradient(275deg, #ebeb0b 0%, #f28f0b 100%);
+    }
+  }
+  @keyframes volt{
+    0%{
+      width: 0vw;
+    }
+    100%{
+      width: 21vw;
+    }
   }
 }
 

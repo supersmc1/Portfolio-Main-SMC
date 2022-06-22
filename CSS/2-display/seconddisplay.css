@@ -80,6 +80,10 @@
 }
 .desc>p{
   font-size: 20px;
+  margin: 20px;
+}
+.desc>h1{
+  margin: 20px;
 }
 
 .my{
@@ -134,7 +138,69 @@
     transform: rotate(-360deg);
   }
 }
+@media (max-width:1700px) {
+  .desc>h1:nth-child(2){
+    font-size: 1.7rem;
+  }
+  .desc>p:nth-child(5){
+    font-size: 1.7rem;
+  }
+  .desc>h1{
+    margin:10px;
+  }
+  .desc>p{
+    margin:10px;
+  }
+  .dp{
+    left: -90px;
+  }
+  .desc{
+    padding:0px;
+  }
+}
 
+@media (max-width:1300px) {
+  .desc>h1:nth-child(2){
+    font-size: 1.1rem;
+  }
+  .desc>p:nth-child(5){
+    font-size: 1.1rem;
+  }
+  .desc>h1{
+    margin:10px;
+  }
+  .desc>p{
+    margin:10px;
+  }
+  .dp{
+    left: -90px;
+  }
+  .desc{
+    padding:0px;
+  }
+}
+@media (max-width:1000px) {
+  .profile{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .desc>h1:nth-child(2){
+    font-size: 1rem;
+  }
+  .gunjunjee{
+    display: none;
+  }
+  .desc>p:nth-child(5){
+    font-size: 1rem;
+  }
+  .desc>h1{
+    margin:10px;
+  }
+  .desc>p{
+    margin:10px;
+  }
+}
 @media (max-width:500px) {
   .profile{
     flex-direction: column;
@@ -149,5 +215,11 @@
   }
   .desc>p:nth-child(5){
     font-size: 1rem;
+  }
+  .desc>h1{
+    margin:10px;
+  }
+  .desc>p{
+    margin:10px;
   }
 }

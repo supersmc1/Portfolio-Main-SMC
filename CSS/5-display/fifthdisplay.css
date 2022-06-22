@@ -1,18 +1,26 @@
 .fifth{
   width: 100vw;
-  height: 100vh;
+  height: 80vh;
   background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
+.borders{
+  display:flex;
+  justify-content: center;
+}
+
 .alwaytxt{
   width: 70vw;
   height: 25vh;
   border-bottom: 5px solid black;
-  color: white;
+  color: #ecfcfb;
   font-size: 60px;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 260px;
   animation:  bordercr 5s infinite;
 }
 @keyframes bordercr {
@@ -34,30 +42,30 @@
   width: 100vw;
   height: 28vh;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .dura>div:nth-child(1){
-  width: 50vw;
-  height: 28vh;
+  width: 73vw;
+  height: 10vh;
   z-index: 2;
+  margin-top: 30px;
+}
+.dura>div:nth-child(1)>h1{
+  font-size: 2rem;
+  color: #ecfcfb;
+  text-align: center;
+  margin: 10px;
 }
 
-.dura>div:nth-child(1)>div{
-  width: 50vw;
-  height: 8vh;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  color: white;
-  font-size: 30px;
-  font-weight: bold;
-}
 .dura>div:nth-child(2){
   width: 27vw;
   height: 28vh;
   display: flex;
   align-items: center;
+  z-index: 1;
 }
 .dura>div:nth-child(2)>img{
   width: 18vw;
@@ -67,70 +75,49 @@
   animation: duraa 5s infinite;
 }
 
-
-.energi{
-  width: 100vw;
-  height: 47vh;
-  display: flex;
-  align-items: flex-end;
+@keyframes duraa {
+  to{
+    left:80vw;
+  }
+  from{
+    left:0vw;
+  }
+}
+@media (max-width:1300px) {
+  .alwaytxt{
+    font-size: 2.5rem;
+    height: 20vh;
+  }
+  .dura>div:nth-child(1)>h1{
+    font-size: 1.8rem;
+    color: #ecfcfb;
+    text-align: center;
+    margin: 10px;
+  }
 }
 
-.energiimg{
-  width: 30vw;
-  height: 48vh;
+@media (max-width:1000px) {
+  .alwaytxt{
+    font-size: 2rem;
+    height: 20vh;
+  }
+  .dura>div:nth-child(1)>h1{
+    font-size: 1.5rem;
+    color: #ecfcfb;
+    text-align: center;
+    margin: 10px;
+  }
 }
-
-.energiimg>img{
-  width: 30vw;
-  height: 47vh;
-}
-
-.kakaos{
-  width: 10vw;
-  height: 25vh;
-  margin-left: 160px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  color: white;
-  font-size: 20px;
-
-}
-.github{
-  width: 10vw;
-  height: 25vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  color: white;
-  font-size: 20px;
-}
-
-
-.kakaos>div:nth-child(1){
-  width: 5vw;
-  height: 5vw;
-  border-radius: 50%;
-  background-image: url(/image/카카오톡.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  margin-bottom: 10px;
-  cursor: pointer;
-
-}
-.github>div:nth-child(1){
-  width: 5vw;
-  height: 5vw;
-  border-radius: 50%;
-  background-image: url(/image/깃허브.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  margin-bottom: 10px;
-  cursor: pointer;
-
-
+@media (max-width:500px) {
+  .alwaytxt{
+    font-size: 1.5rem;
+    text-align: center;
+    height: 20vh;
+  }
+  .dura>div:nth-child(1)>h1{
+    font-size: 1rem;
+    color: #ecfcfb;
+    text-align: center;
+    margin: 10px;
+  }
 }

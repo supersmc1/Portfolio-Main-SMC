@@ -18,6 +18,8 @@ function makeClone() {
       slides.style.width = (slideWidth + slideMargin) * (slideCount + 2) + 'vw'
       slides.style.left = -(slideWidth + slideMargin) + 'vw'
     }
+
+
     arrowright.addEventListener('click', function () {
       //다음 버튼 눌렀을때
       if (currentIdx <= slideCount - 1) {
@@ -36,6 +38,8 @@ function makeClone() {
       }
       currentIdx += 1
     });
+
+
     arrowleft.addEventListener('click', function () {
       //이전 버튼 눌렀을때
       console.log(currentIdx)
@@ -52,3 +56,7 @@ function makeClone() {
       }
       currentIdx -= 1
     });
+
+
+    
+    

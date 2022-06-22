@@ -2,6 +2,11 @@
   width: 100vw;
   height: 100vh;
   background-color: black;
+  background-image: url(/image/testthree.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 80vw;
+  height: 100vh;
 }
 .smc{
   width: 100vw;
@@ -109,6 +114,48 @@
   width: 22vw;
   height: 30vh;
 }
+@media (max-width:1000px) {
+  .s-m-c>h1{
+    font-size: 2rem;
+  }
+
+  .s-m-c{
+    flex-direction: column;
+  }
+
+.slider{
+  height:20vh;
+}
+
+.slides{
+  height: 20vh;
+}
+
+
+.slides>li{
+  height: 20vh;
+}
+
+.slides>li>img{
+  height: 20vh;
+}
+
+.uhoh{
+  height: 30vh;
+}
+
+.arrow{
+  font-size: 3rem;
+}
+.arrowtwo{
+  font-size: 3rem;
+}
+
+.third{
+  height: 80vh;
+  background-size: 100vw;
+}
+}
 
 @media (max-width:500px) {
   .s-m-c>h1{
@@ -121,38 +168,36 @@
 
   
 .slider{
-  width: 70vw;
-  height:35vh;
-  overflow: hidden;
-  position: relative;
+  height:10vh;
 
 
 }
 
 .slides{
-  width: 350vw;
-  border: 1px white;
-  display: flex;
-  position:absolute;
-  left: 0px;
-  top: 0px;
-  transition: 0.5s ease-out;
+  height: 10vh;
 }
 
 
 .slides>li{
-  width: 70vw;
-  height: 35vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  height: 10vh;
 }
 
 .slides>li>img{
-  width: 67vw;
-  height: 30vh;
+  height: 10vh;
 }
-  
 
-  
+.uhoh{
+  height: 20vh;
+}
+
+.arrow{
+  font-size: 2rem;
+}
+.arrowtwo{
+  font-size: 2rem;
+}
+
+.third{
+  height: 65vh;
+}
 }

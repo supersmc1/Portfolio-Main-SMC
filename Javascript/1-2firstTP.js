@@ -1,3 +1,5 @@
+
+//타이핑 스크립트 문자 입력 변수 지정
 const content = "WELCOME TO MY ELECTRONIC_DOCUMENT, \n THIS IS WEB-DESIGN \n I'M WEB-DESIGNER"
 const text = document.querySelector(".text")
 let indexx = 0

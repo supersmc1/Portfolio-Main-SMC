@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="./CSS/4-display/fourthFRdisplay.css">
   <link rel="stylesheet" href="./CSS/5-display/fifthdisplay.css">
   <link rel="stylesheet" href="./CSS/2-display/seconddisplayAD.css">
+  <link rel="stylesheet" href="./CSS/6-footer/footer.css">
 
   <title>Document</title>
   <style>
@@ -24,8 +25,18 @@
     }
     .roottwo{
       width: 100vw;
-      height: 485vh;
+      height: 495vh;
       display: none;
+    }
+    @media (max-width:1000px) {
+      .roottwo{
+      height: 455vh;
+      }
+    }
+    @media (max-width:500px) {
+      .roottwo{
+        height: 410vh;
+      }
     }
 
     html{
@@ -37,8 +48,9 @@
   <script defer src="/Javascript/1-1firstANI.js"></script>
   <script defer src="/Javascript/1-2firstTP.js"></script>
   <script defer src="/Javascript/1-3firstSC.js"></script>
-  <script defer src="/Javascript/2-second.js"></script>
-  <script defer src="/Javascript/3-third.js"></script>  
+  <script defer src="/Javascript/3-third.js"></script>
+  <script defer src="/Javascript/4-fourth.js"></script>
+  <script defer src="/Javascript/footer.js"></script>  
 </head>
 <body>
   <div id="root">
@@ -84,8 +96,8 @@
       <div class="menu">
         <div class="items1">PROFILE</div>
         <div class="items2">ENERGY</div>
-        <div class="items3">PROJECT CARD</div>
-        <div class="items4">READY</div>
+        <div class="items3">READY</div>
+        <div class="items4">PROJECT CARD</div>
       </div>
       <div class="wee">
         <div class="ga">
@@ -352,17 +364,6 @@
         <div class="arrowtwo">></div>
       </div>
     </div>
-    <div class="fourth">
-      <div>
-        <h1>MY PROJECT CARD</h1>
-      </div>
-      <div class="cards">
-        <div class="projectone"><img src="./image/에이수스수정.png" alt=""></div>
-        <div class="projecttwo"><img src="./image/기가바이트수정.png" alt=""></div>
-        <div class="projecttree"><img src="./image/스톰2수정2.png" alt=""></div>
-      </div>
-      <div class="circle"></div>
-    </div>
     <div class="fifth">
       <div class="borders">
         <div class="alwaytxt">
@@ -371,23 +372,35 @@
       </div>
       <div class="dura">
        <div>
-         <div>항상 "만충" 하게</div>
-         <div>"끝까지 오래가는 파워 듀라셀" 같은 능력을 보여 드리겠습니다.</div>
+         <h1>console.log(ENERGY);</h1>
+         <h1>"끝까지 오래가는 파워 듀라셀 같은 능력을 보여 드리겠습니다."</h1>
        </div>
        <div><img src="./image/듀라셀.jpg" alt=""></div>
       </div>
-      <div class="energi">
-        <div class="energiimg"><img src="./image/에너자이저.jpg" alt=""></div>
-  
-        <div class="kakaos">
-          <div></div>
-          <div>ID : asd552288</div>
-        </div>
-  
-        <div class="github">
-          <div></div>
-          <div>ID : supersmc1</div>
-        </div>
+    </div>
+    <div class="fourth">
+      <div>
+        <h1>MY PROJECT CARD</h1>
+      </div>
+      <div class="cards">
+        <div class="projectone"><img src="./image/에이수스수정.png" alt=""></div>
+        <div class="projecttwo"><img src="./image/기가바이트수정.png" alt=""></div>
+        <div class="projecttree"><img src="./image/toy.png" alt=""></div>
+      </div>
+      <div class="circle"></div>
+    </div>
+    <div class="footer">
+      <div class="footerdata">
+        <h1>Produce 2022.</h1>
+        <h2>끝까지 봐주셔서 감사합니다.</h2>
+        <p>H.P : 010-7564-1192</p>
+        <P>e-mail : asd552288 @ naver.com</P>
+        <p>kakao ID : asd552288</p>
+        <p>github ID : supersmc1</p>
+      </div>
+      <div class="icon">
+        <div class="kakao"></div>
+        <div class="github"></div>
       </div>
     </div>
   </div>

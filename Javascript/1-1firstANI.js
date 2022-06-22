@@ -1,3 +1,4 @@
+//메인페이지 화면 led그래프 변수 지정
 const wee = document.querySelector('.wee')
 const ga = document.querySelector('.ga')
 const na = document.querySelector('.na')
@@ -26,7 +27,7 @@ const tachd = ta.children
 const pachd = pa.children
 const hachd = ha.children
 
-    //알고리즘 애니메이션 9876543210 다시 9876543210
+    //알고리즘 애니메이션 9876543210 다시 9876543210반복 색변환 각각다른 변수지정
     let timerb = setInterval(function(){
       let i = 13
       let timer = setInterval(function(){

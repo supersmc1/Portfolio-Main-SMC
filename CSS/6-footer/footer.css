@@ -1,0 +1,77 @@
+.footer{
+  width: 100vw;
+  height: 50vh;
+  background-color: black;
+}
+
+.footerdata{
+  width: 100vw;
+  height: 40vh;
+  color: #ecfcfb;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  font-weight: bold;
+}
+
+.footerdata>h1{
+  font-size: 4rem;
+  text-align: center;
+}
+.footerdata>h2{
+  margin-top: 10px;
+}
+.footerdata>p{
+  margin-top: 10px;
+}
+.icon{
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+}
+.icon>div{
+  margin: 20px;
+}
+.kakao{
+  width: 3vw;
+  height: 3vw;
+  border-radius: 20px;
+  background-image:url(/image/카카오톡.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+
+}
+.github{
+  width: 3vw;
+  height: 3vw;
+  border-radius: 20px;
+  background-image:url(/image/깃허브.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+}
+
+@media (max-width:500px) {
+  .github{
+    width: 10vw;
+    height: 10vw;
+  }
+  .kakao{
+    width: 10vw;
+    height: 10vw;
+  }
+  .roottwo{
+    height: 410vh;
+  }
+  .footerdata>h1{
+    font-size: 3rem;
+  }
+  .footerdata>h2{
+    font-size: 1rem;
+  }
+}

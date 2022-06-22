@@ -6,6 +6,8 @@
 }
 
 .fourth>div:nth-child(1){
+  width: 100vw;
+  height: 30vh;
   font-size: 40px;
   margin: 20px;
   color:  #ecfcfb;
@@ -25,14 +27,15 @@
 
 
 .cards{
+  width: 100vw;
+  height: 42vh;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .cards>div{
   width: 18vw;
   height: 55vh;
-  position: relative;
   z-index: 2;
   cursor: pointer;
 }
@@ -53,17 +56,63 @@
   z-index: 1;
 }
 
-.projectone{
-  top:130px;
-  right:260px;
-
+@media (max-width:1000px) {
+  .fourth>div:nth-child(1){
+    font-size: 2.5rem;
+  }
+  .circle{
+    height: 15vh;
+    margin-left: 10px;
+    top: -15px;
+  }
+  .fourth{
+    height: 80vh;
+  }
+  .cards{
+    width: 100vw;
+    height: 32vh;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .cards>div{
+    width: 22vw;
+    height: 40vh;
+    z-index: 2;
+    cursor: pointer;
+  }
+  .cards>div>img{
+    width: 22vw;
+    height: 40vh;
+  }
 }
 
-.projecttwo{
-  top:180px
-}
-
-.projecttree{
-  top:130px;
-  left:260px;
+@media (max-width:500px) {
+  .fourth>div:nth-child(1){
+    font-size: 1.5rem;
+  }
+  .circle{
+    height: 5vh;
+    margin-left: 10px;
+  }
+  .fourth{
+    height: 70vh;
+  }
+  .cards{
+    width: 100vw;
+    height: 32vh;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .cards>div{
+    width: 18vw;
+    height: 30vh;
+    z-index: 2;
+    cursor: pointer;
+  }
+  .cards>div>img{
+    width: 18vw;
+    height: 30vh;
+  }
 }
