@@ -96,104 +96,27 @@
     color: black;
   }
   15%{
-    color: red;
+    color: #05FF00;
+    box-shadow: 0px 0px 40px 20px rgba(150, 255, 255, 0.5), inset 0px 1px 30px 15px rgba(21, 211, 233, 0.3);
+
+
   }
   30% {
     color: black;
   }
   45%{
     color: orange;
+    
   }
   60%{
     color: black;
   }
   75% {
-    color: #05FF00;
+    color: red;
+    box-shadow: 0px 0px 40px 20px rgba(150, 255, 255, 0.5), inset 0px 1px 30px 15px rgba(21, 211, 233, 0.3);
+
   }
   100%{
     color: black;
   }
 }
-
-@keyframes one {
-  0%{
-    background-color: black;
-  }
-  20%{
-    background-color:  #02feff;
-  }
-  40%{
-    background-color: black;
-    
-  }
-  60%{
-    background-color: black;
-
-  }
-  100%{
-    background-color: black;
-  }
-}
-
-@keyframes two {
-  0%{
-    background-color: black;
-  }
-  20%{
-    background-color:  black;
-  }
-  40%{
-    background-color: #02feff;
-    
-  }
-  60%{
-    background-color: black;
-
-  }
-  100%{
-    background-color: black;
-  }
-}
-
-@keyframes three {
-  0%{
-    background-color: black;
-  }
-  20%{
-    background-color:  black;
-  }
-  40%{
-    background-color: black;
-    
-  }
-  60%{
-    background-color: #02feff;
-
-  }
-  100%{
-    background-color: black;
-  }
-}
-@keyframes four {
-  0%{
-    background-color: black;
-  }
-  20%{
-    background-color:  black;
-  }
-  40%{
-    background-color: black;
-    
-  }
-  60%{
-    background-color: black;
-
-  }
-  80%{
-    background-color: #02feff;
-  }
-  100%{
-    background-color: black;
-  }
-}
-

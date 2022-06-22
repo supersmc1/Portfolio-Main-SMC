@@ -13,6 +13,7 @@
 .loading{
   position: relative;
   bottom: 50px;
+  margin:30px;
 }
 
 .hello{
@@ -26,42 +27,21 @@
   top: 100px;
   color: rgba(2, 255, 255, 0.15);
 }
-.numbers{
-  width: 20vw;
-  height: 10vw;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
+
+@media (max-width:1500px) {
+  .hello{
+    font-size: 3.5rem;
+  }
 }
 
-.numbers>div{
-  margin: 10px;
-  position: relative;
-  top: 100px;
+@media (max-width:1000px) {
+  .hello{
+    font-size: 2.5rem;
+  }
 }
 
-.one{
-  width: 2vw;
-  height: 2vw;
-  border-radius: 50%;
-  animation: one 4s infinite;
-}
-.two{
-  width: 3vw;
-  height: 3vw;
-  border-radius: 50%;
-  animation: two 4s infinite;
-
-}
-.three{
-  width: 4vw;
-  height: 4vw;
-  border-radius: 50%;
-  animation: three 4s infinite;
-}
-.four{
-  width: 5.5vw;
-  height: 5.5vw;
-  border-radius: 50%;
-  animation: four 4s infinite;
+@media (max-width:500px) {
+  .hello{
+    font-size: 1.5rem;
+  }
 }
