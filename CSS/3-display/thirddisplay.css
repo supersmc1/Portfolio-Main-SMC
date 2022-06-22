@@ -114,6 +114,9 @@
   width: 22vw;
   height: 30vh;
 }
+@media (max-width:1300px) {
+  
+}
 @media (max-width:1000px) {
   .s-m-c>h1{
     font-size: 2rem;
