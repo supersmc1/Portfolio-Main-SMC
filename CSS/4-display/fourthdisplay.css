@@ -34,14 +34,14 @@
 }
 
 .cards>div{
-  width: 18vw;
-  height: 55vh;
+  width: 15vw;
+  height: 50vh;
   z-index: 2;
   cursor: pointer;
 }
 .cards>div>img{
-  width: 18vw;
-  height: 55vh;
+  width: 15vw;
+  height: 50vh;
 }
 
 .circle{
@@ -50,7 +50,7 @@
   border-radius: 50%;
   margin-left: 40px;
   position: relative;
-  top:-30px;
+  top:-35px;
   background: rgba(255, 255, 255, 0.9);
   filter: blur(20px);
   z-index: 1;
